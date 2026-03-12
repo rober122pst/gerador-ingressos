@@ -33,5 +33,5 @@
 
 body {
     background-color: var(--color-shape);
-    @apply txt-body
+    color: var(--color-body);
 }
