@@ -1,4 +1,8 @@
-export function LogoSport({ size, ...props }: { size: GLfloat; props: React.SVGProps<SVGAElement> }) {
+interface svgLogo extends React.SVGProps<SVGSVGElement> {
+    size?: number;
+}
+
+export function LogoSport({ size, ...props }: svgLogo) {
     return (
         <svg
             id="Camada_1"
