@@ -3,32 +3,64 @@
 @import 'tailwindcss';
 
 @theme {
-    --color-brand-light: #b01a2e;
-    --color-brand-mid: #960018;
-    --color-brand-dark: #75071b;
+    --color-shape: #141414;
+    --color-shape-body: #1c1c1c;
 
-    --color-input-base: #1C1F21;
-    --color-input-stroke: #363B40;
-    --color-input-placeholder: #869198;
+    /* --color-flag-red-50: #fde8e9;
+    --color-flag-red-100: #fad1d3;
+    --color-flag-red-200: #f6a2a6;
+    --color-flag-red-300: #f1747a;
+    --color-flag-red-400: #ed454e;
+    --color-flag-red-500: #e81721;
+    --color-flag-red-600: #ba121b;
+    --color-flag-red-700: #8b0e14;
+    --color-flag-red-800: #5d090d;
+    --color-flag-red-900: #2e0507;
+    --color-flag-red-950: #200305;
 
-    --color-shape: #131516;
-    --color-shape-body: #212427;
-    --color-shape-button: #2D3136;
-    --color-shape-hover: #383D42;
+    --color-oxblood-50: #fee6e8;
+    --color-oxblood-100: #fecdd0;
+    --color-oxblood-200: #fd9ba2;
+    --color-oxblood-300: #fc6973;
+    --color-oxblood-400: #fb3744;
+    --color-oxblood-500: #fa0515;
+    --color-oxblood-600: #c80411;
+    --color-oxblood-700: #96030d;
+    --color-oxblood-800: #640209;
+    --color-oxblood-900: #320104;
+    --color-oxblood-950: #230103;
 
-    --color-body: #DBA400;
-    --color-heading: #FFCE1B;
+    --color-dark-garnet-50: #fde7e8;
+    --color-dark-garnet-100: #fbd0d1;
+    --color-dark-garnet-200: #f7a1a4;
+    --color-dark-garnet-300: #f47176;
+    --color-dark-garnet-400: #f04248;
+    --color-dark-garnet-500: #ec131a;
+    --color-dark-garnet-600: #bd0f15;
+    --color-dark-garnet-700: #8e0b10;
+    --color-dark-garnet-800: #5e080b;
+    --color-dark-garnet-900: #2f0405;
+    --color-dark-garnet-950: #210304; */
+
+    --color-brand-light: #e81721;
+    --color-brand-mid: #ba121b;
+    --color-brand-dark: #8b0e14;
+    --color-oxblood-800: #5d090d;
+
+
+    --color-heading: #f6b709;
+    --color-body: #c59207;
 
     --font-heading: 'Urbanist', sans-serif;
     --font-body: 'Open Sans', sans-serif;
 }
 
 @utility txt-heading {
-    @apply font-heading text-[1.75rem] font-bold text-heading
+    @apply font-heading text-[1.75rem] font-bold text-heading tracking-tight
 }
 
 @utility txt-heading-sm {
-    @apply font-heading text-[1.125rem] font-bold text-heading
+    @apply font-heading text-[1.125rem] font-bold text-heading tracking-tight
 }
 
 @utility txt-body {
