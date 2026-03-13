@@ -6,6 +6,10 @@
     --color-shape: #141414;
     --color-shape-body: #1c1c1c;
 
+    --color-input: #141616;
+    --color-input-stroke: #2e2e2e;
+    --color-input-placeholder: #5d5d5d;
+
     /* --color-flag-red-50: #fde8e9;
     --color-flag-red-100: #fad1d3;
     --color-flag-red-200: #f6a2a6;
@@ -64,7 +68,7 @@
 }
 
 @utility txt-body {
-    @apply font-body font-semibold
+    @apply font-body font-normal
 }
 
 body {
